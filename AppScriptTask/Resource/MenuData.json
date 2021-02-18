@@ -1,0 +1,33 @@
+{
+    "data": [
+        {
+            "Title": "Pizza",
+            "Items": [
+                {
+                    "Image": "pizzaImage1",
+                    "Name": "Farmhouse pizza",
+                    "Description": "Ingredients\n2 servings\n\nfor toppings:-\n\n  3 tbsp pizza sauce\n  3 tbsp onion, roughly chopped\n  3 tbsp chopped tomatoes\n  1/4 cup capsicum, roughly chopped\n  1/2 cup mozzarella cheese, grated\n  1/2 tsp oregano / italian seasonings / mixed herbs\n  2 Pizza base\n\nSteps :-\n\nPlace the pizza base on pizza plate or tray. Spread pizza sauce generously leaving the sides slightly.\nAlso top with topping of onions,tomatoes,capsicums.\nThen spread grated cheese and sprinkle italian seasonings.\nMicrowave for 10-15 minutes... Serve hot immediately.\n"
+                    
+                },{
+                    "Image": "pizzaImage2",
+                    "Name":"Cheese pizza",
+                    "Description": "Ingredients\n3 people\n3 cups Finely chopped Cabbage\n2 cups Diced capsicum\n1 tbsp Giner garlic paste\n3 tbsp Oil\nSalt to taste\n1/4 tsp turmeric powder\nRed chilli powder half tsp\n2 tbsp Tomato sauce\n2 tbsp Red chilli sauce\n1 tbsp Soy sauce\nPizza base\nCheese\nButter\n1 diced onion\n\nSteps\n\nHeat oil in a pan and add onion to it. Add ginger garlic paste when onion softens.\nAdd cabbage and capsicum. Cover the pan with a lid till cabbage softens.\nAdd salt, turmeric powder, red chili powder, tomato ketchup, soy sauce, chili sauce.\nSpread tomato sauce all over the pizza base. Spread the veggies mixture.\nAdd the crushed cheese all over it. Heat a dosa pan add place a plate over it.\nSpread butter over the plate and Place the pizza over it. Cover it with another plate.\nLower the flame and let it get cooked for 5-6 mins. Check the base from lower side, if it's raw cook for another 1-2 minutes.\nTake the pizza off the flame and cut it into 6 pieces. Serve hot.\n"
+                }
+            ]
+        },{
+            "Title": "Burger",
+            "Items":[
+                
+                {
+                    "Image": "burgerImage1",
+                    "Name": "Veg Burger",
+                    "Description": "Ingredients\n4 People\n2 boiled mashed potatoes\n2 cup boiled vegetables (French beans, green peas’ corn, carrots, cauliflower)\n1 tsp ginger chilli paste\n3 tsp Coriander leaves\nto taste Salt\n1/4 tsp garam masala\n1/2 tsp lemon juice\n2 Tbsp corn flour\nto taste Salt\nas needed Water\n1 cup toasted bread crumbs\n1 Sliced cucumber\n1 Sliced tomato\n1 Sliced onion rings\n3 tsp Mayonnaise\n3 tsp Tomato ketchup\n2 Lettuce leaves\n1 tsp Crushed black pepper\n\nSteps\n\nFor Patty:\n\nLet’s take boiled meshed potatoes in a bowl, add boiled vegetables, coriander leaves, ginger chilli paste, salt, Garam masala, lemon juice, corn flour and mix it well. if you see the potatoes stuff is still sticky then you can add the more corn flour. Let’s take oil in the palm and make a round shape patty’s and press the rounds gently.\nFor Dip: Let’s take 3 Tbsp corn flour in a bowl, add pinch of salt, water and make a pouring consistency paste. Keep it aside. Now take the roasted bread crumbs in a plate. Now take the prepared patty, dip it in the prepared dip and roll it up on to bread crumbs. Now place them into a grill. Place them over and make them grilled until crisp & golden brown.\nNow take the burger bun, cut it into half, apply little butter, worm it on the fry pan and take it out.\nNow place the patty on fry pan, place the cheese slice on it, cover it with the bowl until the cheese slice melted. Now apply some ketchup on the bun, place lettuce, some cucumber slices, tomato slices, sprinkle little salt & black pepper, now place the patty on top of it, and then place onion rings. Apply some mayonnaise on another bun and place it on the patty. Serve the veg burger with the potato fries.\n"
+                    
+                }, {
+                    "Image": "burgerImage2",
+                    "Name": "Non-Veg Burger",
+                    "Description": "Ingredients\n1-2 servings\n2 Medium sized Burger Buns\nas needed butter to toast the buns\n8 Chicken Salami slices\n2 Cheese slices\nSalad mix for the burger\n2 Romaine Lettuce leaves(or any) chopped\n3-4 Arugula/Rocket leaves Chopped\n4-5 Fresh Basil leaves chopped\n1 small onion chopped\n2-3 Pickled Jalepenos chopped\n3 Pitted Olives sliced /chopped\n2 tbsps Mayonnaise sauce\n1 pinch Chilli flakes\n1 pinch Crushed Black pepper\n\nSteps\n\nChop and prepare all the veggies.\nPut all in the bowl, add black pepper, chilli flakes and Mayonnaise and mix. (I didn't add salt, check and add if needed...I didn't add any more seasoning as the mayonnaise is the Italian herbs flavored). Keep aside.\nLightly saute the salami on low flame for few seconds on both sides on a non-stick pan or tawa.Cut the buns into half and toast them on a hot tawa/ pan. This time I have used store bought buns.\nI assembled it this way...on the base of the bun- in goes the mayo salad mix first, then 4 Chicken Salami slices, a cheese slice and the bun (top)...put a toothpick or a small skewer to hot all the things in place and serve.\n"}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="OPs-2A-F7v" customClass="CustomBannerHeaderView" customModule="AppScriptTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="473" height="199"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aln-co-edP" userLabel="ContentHolderView">
+                    <rect key="frame" x="0.0" y="0.0" width="473" height="199"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="W0h-nw-JCM">
+                            <rect key="frame" x="0.0" y="0.0" width="473" height="199"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="STO-se-FfT">
+                                <size key="itemSize" width="128" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <connections>
+                                <outlet property="dataSource" destination="OPs-2A-F7v" id="UJh-UC-qMc"/>
+                                <outlet property="delegate" destination="OPs-2A-F7v" id="o3H-WN-HXT"/>
+                            </connections>
+                        </collectionView>
+                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="zDU-CW-Jgv">
+                            <rect key="frame" x="175" y="171" width="123" height="28"/>
+                        </pageControl>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="W0h-nw-JCM" firstAttribute="top" secondItem="aln-co-edP" secondAttribute="top" id="3gS-2m-f0Y"/>
+                        <constraint firstAttribute="bottom" secondItem="W0h-nw-JCM" secondAttribute="bottom" id="5CS-I6-Pfa"/>
+                        <constraint firstAttribute="bottom" secondItem="zDU-CW-Jgv" secondAttribute="bottom" id="5NL-Fm-LIb"/>
+                        <constraint firstItem="zDU-CW-Jgv" firstAttribute="centerX" secondItem="W0h-nw-JCM" secondAttribute="centerX" id="8Hi-q7-uLP"/>
+                        <constraint firstAttribute="trailing" secondItem="W0h-nw-JCM" secondAttribute="trailing" id="9F0-CA-pnx"/>
+                        <constraint firstItem="W0h-nw-JCM" firstAttribute="leading" secondItem="aln-co-edP" secondAttribute="leading" id="fRX-zA-SoC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="rKo-0I-Nou"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="aln-co-edP" firstAttribute="leading" secondItem="rKo-0I-Nou" secondAttribute="leading" id="ArW-W0-y1y"/>
+                <constraint firstItem="aln-co-edP" firstAttribute="trailing" secondItem="rKo-0I-Nou" secondAttribute="trailing" id="T1s-M8-rD7"/>
+                <constraint firstItem="aln-co-edP" firstAttribute="top" secondItem="OPs-2A-F7v" secondAttribute="top" id="uye-qL-DxU"/>
+                <constraint firstItem="aln-co-edP" firstAttribute="bottom" secondItem="OPs-2A-F7v" secondAttribute="bottom" id="xFO-Rd-C7T"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bannerImageCollectionView" destination="W0h-nw-JCM" id="afb-Mm-Nug"/>
+                <outlet property="pageController" destination="zDU-CW-Jgv" id="hUN-KL-X8c"/>
+            </connections>
+            <point key="canvasLocation" x="-13.768115942028986" y="-463.05803571428567"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
